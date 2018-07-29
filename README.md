@@ -1,11 +1,17 @@
 # animeplanet CLI
 
+## Installation
+
+```console
+pip3 install animeplanet
+```
+
 ## Usage
 
 ### CLI
 
 ```console
-python3 animeplanet.py set-episodes elfen-lied 2
+animeplanet set-episodes elfen-lied 2
 ```
 
 The CLI uses credentials stored in `~/.animeplanet.conf` in form `USERNAME,PASSWORD`.
